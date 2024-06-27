@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xemganday" name="Xem Gần Đây" version="6.1.2" provider-name="Luis Rodrigues, LamBass">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Xem Gần Đây</summary>
+		<summary lang="en_US">Xem Gần Đây</summary>
+		<description lang="en_GB">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<description lang="en_US">List of the last movies, episodes and music played, including streaming sources from any addon</description>
+		<disclaimer lang="en_GB"></disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
